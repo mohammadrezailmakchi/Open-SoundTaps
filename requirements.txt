@@ -1,0 +1,7 @@
+flet==0.26.0
+flet-desktop==0.26.0
+mutagen==1.47.0
+pynput==1.7.7
+requests==2.32.3
+beautifulsoup4==4.12.3
+soupsieve==2.6
