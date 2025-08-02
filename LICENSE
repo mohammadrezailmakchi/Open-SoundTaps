@@ -1,21 +1,39 @@
-MIT License
-
+The Community and Commercial Rights License 1.0
 Copyright (c) 2025 Mohammadreza Ilmakchi
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This license governs the use, modification, and distribution of the accompanying software ("The Software"). The intent of this license is to allow public collaboration and use while reserving all commercial rights for the copyright holder.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. Permissions Granted (Non-Commercial Use)
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+You are granted the following rights for any non-commercial purpose, provided you adhere to the conditions in Section 2:
+
+Right to Use: You are free to use The Software for personal, educational, or research purposes.
+
+Right to Modify: You are free to create derivative works based on The Software.
+
+Right to Distribute: You are free to share and redistribute the source code of The Software and any derivative works.
+
+2. Mandatory Conditions
+
+Commercial Restriction: You are explicitly forbidden from using, distributing, or selling The Software or any derivative work for any commercial purpose. A commercial purpose is any activity intended to generate revenue. This includes, but is not limited to, selling the software, using it in a product that is sold, or distributing it on a commercial platform (e.g., Apple App Store, Google Play Store).
+
+Strong Attribution: You must provide prominent attribution to the original author in any derivative work. This includes the original copyright notice and a visible, direct link to the original source repository.
+
+Share-Alike: Any derivative work you distribute must be licensed under the exact same terms of this license.
+
+3. Reservation of Commercial Rights
+
+The copyright holder, Mohammadreza Ilmakchi, is the only entity permitted to use, distribute, or sell The Software and its derivative works for commercial purposes. All commercial rights are reserved exclusively by the copyright holder. For commercial licensing inquiries, contact the copyright holder.
+
+4. Contributions
+
+Any contribution submitted for inclusion in The Software will be subject to a separate Contributor License Agreement (CLA) that grants the copyright holder the necessary rights to incorporate the contribution into both non-commercial and commercial versions of The Software.
+
+5. Disclaimer of Warranty
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY.
+
+6. Contact
+
+For commercial licensing or other inquiries, contact:
+📧 mohammadrezailmakchi@gmail.com
