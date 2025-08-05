@@ -1,3 +1,6 @@
+# There are more coming soon!... keep eyes on commits!
+
+
 # 🎵 SoundTAPS Legacy
 
 Welcome to **SoundTAPS Legacy** – a minimal, all-in-one audio player built with ❤️ in Python and [Flet](https://flet.dev).  
