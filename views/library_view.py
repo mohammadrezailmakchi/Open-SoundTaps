@@ -1,12 +1,14 @@
 import flet as ft
+from components.song_list_item import SongListItem
 
 class LibraryView(ft.Column):
     """The main view for the Music Library, containing tabs for songs, albums, and artists."""
-    def __init__(self, on_add_folder_clicked):
+    def __init__(self, on_add_folder_clicked, on_song_selected):
         super().__init__(expand=6) # Takes up most of the space
 
         self._on_add_folder_clicked = on_add_folder_clicked
-
+        self._on_song_selected = on_song_selected
+        
         # Define UI elements
         self.song_list_view = ft.ListView(expand=True, spacing=10, auto_scroll=False)
         self.album_list_view = ft.ListView(expand=True, spacing=10, auto_scroll=False)
@@ -37,7 +39,15 @@ class LibraryView(ft.Column):
         for song_id, song_data in songs.items():
             # This is where you'd build your fancy song row component
             self.song_list_view.controls.append(
-                ft.ListTile(title=ft.Text(song_data["title"]), subtitle=ft.Text(song_data["artist"]))
+                SongListItem(
+                    song_id=song_id,
+                    title=song_data.get("title", "N/A"),
+                    artist=song_data.get("artist", "N/A"),
+                    album=song_data.get("album", "N/A"),
+                    genre=song_data.get("genre", "N/A"),
+                    duration="3:41", # You'll need to load this from the file
+                    on_play_song=self._on_song_selected
+                )
             )
 
         self.album_list_view.controls.clear()
@@ -53,4 +63,4 @@ class LibraryView(ft.Column):
             )
         
         self.update()
-        print("Library view populated with data.")
+        print("Library view populated with custom SongListItems.")

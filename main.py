@@ -37,6 +37,23 @@ def main(page: ft.Page):
         #     main_content.content = home_view
         # elif selected_index == 1:
         #     main_content.content = library_view
+        
+    def handle_song_selection(song_id):
+        """
+        This function is called when a SongListItem is clicked.
+        It finds the song's data and tells the PlayerBar to update.
+        """
+        print(f"Song selected: {song_id}")
+        song_data = song_manager.songs.get(song_id) # Get song details from the manager
+        if song_data:
+            player_bar.update_song_details(
+                title=song_data.get("title"),
+                artist=song_data.get("artist"),
+                thumbnail_path="default_thumbnail.jpg" # You'll update this later
+            )
+            # You would also tell your audio player to play the song here
+            # audio_player.play(song_data['path'])
+            player_bar.set_playing_state(True)
 
     # --- PlayerBar Handlers ---
     def play_pause(): print("Play/Pause clicked!")
@@ -50,7 +67,12 @@ def main(page: ft.Page):
 
     # --- 3. Initialize UI Components ---
     nav_rail = NavRail(on_change_route=change_route)
-    library_view = LibraryView(on_add_folder_clicked=add_folder)
+    
+    library_view = LibraryView(
+        on_add_folder_clicked=add_folder,
+        on_song_selected=handle_song_selection 
+    )
+    
     player_bar = PlayerBar(
         on_play_pause_clicked=play_pause,
         on_next_clicked=next_song,
