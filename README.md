@@ -37,7 +37,7 @@ python main.py
 ### macOS
 Coming soon 🚧
 
-🛠️ ## Contribution
+## 🛠️ Contribution
 SoundTaps is open source — contributions are welcome!
 
 Ways to Contribute:
@@ -62,7 +62,7 @@ Push to your fork
 
 Open a Pull Request
 
-📌 ## Roadmap
+## 📌 Roadmap
 Current Version: v0.1.0 (Beta)
 
 ✅ Core playback
