@@ -1,7 +1,7 @@
 # 🎵 SoundTaps  
 *A modern, offline, and cross-platform music player built with Python & Flet.*
 
-![SoundTaps Screenshot](./Screenshot.png)
+![SoundTaps Screenshot](https://mohammadrezailmakchi.com/wp-content/uploads/2025/09/mockup-14-inch_Light_result-2048x1365.webp)
 
 ---
 
