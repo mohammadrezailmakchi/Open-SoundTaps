@@ -33,10 +33,11 @@ git clone https://github.com/yourusername/soundtaps.git
 cd soundtaps
 pip install -r requirements.txt
 python main.py
-macOS
+```
+###macOS
 Coming soon 🚧
 
-🛠️ Contribution
+🛠️ ##Contribution
 SoundTaps is open source — contributions are welcome!
 
 Ways to Contribute:
@@ -61,7 +62,7 @@ Push to your fork
 
 Open a Pull Request
 
-📌 Roadmap
+📌 ##Roadmap
 Current Version: v0.1.0 (Beta)
 
 ✅ Core playback
@@ -70,7 +71,7 @@ Current Version: v0.1.0 (Beta)
 
 ✅ Light/Dark mode
 
-Next Up:
+##Next Up:
 
 ⏳ macOS release
 
@@ -78,7 +79,7 @@ Next Up:
 
 ⏳ Lyrics sync
 
-❤️ Support
+❤️ ##Support
 I’m 16 and building this project to learn, grow, and connect with amazing people in tech.
 If you like SoundTaps, consider supporting me:
 
