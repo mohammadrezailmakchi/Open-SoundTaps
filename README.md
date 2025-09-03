@@ -29,7 +29,7 @@
 
 ### Windows  
 ```bash
-git clone https://github.com/yourusername/soundtaps.git
+git clone https://github.com/mohammadrezailmakchi/Open-SoundTaps.git
 cd soundtaps
 pip install -r requirements.txt
 python main.py
