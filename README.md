@@ -1,81 +1,87 @@
-# There are more coming soon!... keep eyes on commits!
+# 🎵 SoundTaps  
+*A modern, offline, and cross-platform music player built with Python & Flet.*
 
-
-# 🎵 SoundTAPS Legacy
-
-Welcome to **SoundTAPS Legacy** – a minimal, all-in-one audio player built with ❤️ in Python and [Flet](https://flet.dev).  
-This is the **first-generation prototype** of the SoundTAPS project — a local music player that's lightweight, easy to run, and packed with future potential.
+![SoundTaps Screenshot](./Screenshot.png)
 
 ---
 
-## 📦 About This Version
+## ✨ Features  
 
-- ✅ **Self-contained**: All logic is packed into a single `main.py` file for now.
-- 🧪 **Test-ready**: Just drop your songs into the `songs/` folder and you're good to go!
-- ⚙️ **Simple to run**: One click with `run.bat` sets up everything for you — including dependencies.
-
-> ⚠️ You must have Python 3.10+ installed on your system.
-
----
-
-## 🚀 Getting Started
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/soundtaps-legacy.git
-   cd soundtaps-legacy
-   ```
-
-2. **Copy or move your `.mp3` songs into the `songs/` folder**.
-
-3. **Run the app**:
-   > ✅ No setup required, just run:
-   ```bat
-   run.bat
-   ```
+- **🎶 Offline Playback** – Play your local music library without internet.  
+- **🖥️ Cross-Platform** – Available on **Windows**. **macOS version coming soon!**  
+- **✨ Modern UI** – Clean, minimal, and user-friendly interface.  
+- **🎚️ Always-Visible Controls** – A persistent player bar for easy access.  
+- **📂 Organized Views** – *Home, Library, Playlists, Settings* + built-in **Favorites** playlist.  
+- **📚 Library Tabs** – Browse by *Songs, Albums, Artists*.  
+- **🔍 Search & Sort** – Search within library and reorder music (global search coming soon).  
+- **🎨 Themes** – Switch between **Light/Dark Mode** or pick from predefined color palettes.  
+- **📌 Playlists Management** – Create, delete, and customize playlists.  
+- **🔁 Playback Controls** – Shuffle, repeat one, repeat all.  
+- **🛠️ Database Syncing** – Add/remove music folders & full resync anytime.  
+- **🚀 Future Features**  
+   - Artist covers via Spotify API.  
+   - Timestamped lyrics sync (like Apple Music).  
+   - Global search across app.  
 
 ---
 
-## 🔮 Roadmap
+## 📥 Installation  
 
-🛠 **Modular Rewrite Coming Soon!**  
-We're currently working on a **fully modular, scalable codebase** for SoundTAPS Legacy.  
-Expect cleaner structure, more features, and separate UI / player / settings modules — all in future updates.
+### Windows  
+```bash
+git clone https://github.com/yourusername/soundtaps.git
+cd soundtaps
+pip install -r requirements.txt
+python main.py
+macOS
+Coming soon 🚧
 
----
+🛠️ Contribution
+SoundTaps is open source — contributions are welcome!
 
-## 🎯 Goals for Future Updates
+Ways to Contribute:
 
-- 📁 Full project modularization  
-- 🌗 Light & dark theme switching  
-- 🎚 Playlist + library management  
-- 💡 Smart recommendations  
-- 🎨 Beautiful UI with animations  
-- 📱 Web version preview (optional in future roadmap)
+Add new features (lyrics sync, global search).
 
----
+Improve the UI/UX with Flet.
 
-## 🧠 Built With
+Fix bugs or optimize performance.
 
-- [Flet](https://flet.dev) – for the cross-platform UI
-- [Mutagen](https://mutagen.readthedocs.io) – for reading MP3 metadata
-- [Pynput](https://pypi.org/project/pynput/) – for hotkey functionality
-- [BeautifulSoup4](https://pypi.org/project/beautifulsoup4/) – for future metadata scraping
-- [Requests](https://docs.python-requests.org/) – for potential internet-based enhancements
+Write documentation or translations.
 
----
+Workflow:
 
-## 🤝 Contributing
+Fork the repo
 
-Contributions, feedback, or playlist feature ideas are **very welcome**!  
-Feel free to fork the repo, make changes, and submit a pull request 🙌
+Create a branch: git checkout -b feature-name
 
----
+Commit changes: git commit -m "Added new feature"
 
-## 📜 License
+Push to your fork
 
-MIT License © 2025 [Mohammadreza Ilmakchi](https://github.com/ilmakchi)
+Open a Pull Request
 
----
+📌 Roadmap
+Current Version: v0.1.0 (Beta)
 
-> 💬 *SoundTAPS: Let your code vibe to your rhythm.*
+✅ Core playback
+
+✅ Playlists & library
+
+✅ Light/Dark mode
+
+Next Up:
+
+⏳ macOS release
+
+⏳ Spotify artist covers
+
+⏳ Lyrics sync
+
+❤️ Support
+I’m 16 and building this project to learn, grow, and connect with amazing people in tech.
+If you like SoundTaps, consider supporting me:
+
+⭐ Star this repo
+
+☕ Buy Me a Coffee (optional)
