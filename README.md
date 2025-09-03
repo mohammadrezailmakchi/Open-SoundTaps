@@ -65,7 +65,7 @@ _Coming soon 🚧_
 ## 📦 Download  
 
 Prebuilt binaries will be available soon on:  
-- [**Official Website**](https://mohammadrezailmakchi.com)  
+- [**Official Website**](https://mohammadrezailmakchi.com/open-soundtaps/)  
 - GitHub Releases page  
 
 ---
