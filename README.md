@@ -40,13 +40,13 @@ Coming soon 🚧
 ## 🛠️ Contribution
 SoundTaps is open source — contributions are welcome!
 
-Ways to Contribute:
+### Ways to Contribute:
 
-Add new features (lyrics sync, global search).
+#### Add new features (lyrics sync, global search).
 
-Improve the UI/UX with Flet.
+####cImprove the UI/UX with Flet.
 
-Fix bugs or optimize performance.
+#### Fix bugs or optimize performance.
 
 Write documentation or translations.
 
